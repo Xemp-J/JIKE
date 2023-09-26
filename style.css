@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    /* width: 390px; */
+}
+
+.header{
+   
+     background: linear-gradient( 80deg, transparent, hsl(192, 100%, 91%)), url(images/bg-hero-mobile.svg);   
+}
+
+.container-one{
+    display: flex;
+    margin-bottom: 90px;
+    box-sizing: content-box;
+    padding: 20px 10px 20px 10px;
+    
+}
+.container-one .element-one{
+    flex-basis: 50%;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+ .element-one img{
+     width: 102px;
+     padding-top: 2px;
+     box-sizing: content-box;
+} 
+
+
+.container-one .element-two{
+    flex-basis: 50%;
+    flex-shrink: 0;
+    flex-grow: 0; 
+    text-align: end;
+}
+.element-two button{
+    border-radius: 20px;
+    border: none;
+    padding: 8px 20px 8px 20px;
+    font-size: 10px;
+    font-weight: 500;
+    background-color: white;
+    color:black;
+    box-shadow: inset;
+}
+.container-two h3{
+    
+    text-align: center;
+    font-size: 25px;
+    padding: 0 40px 0 40px;
+    margin-bottom: 15px;
+}
+.container-two p{
+    /* border:1px solid red; */
+    text-align: center;
+    padding: 0 50px 0 50px;
+    line-height: 1.5rem;
+    margin-bottom: 35px;
+}
+
+.container-two .element-three{
+    text-align: center;
+}
+
+.element-three button{
+    border-radius: 25px;
+    border: none;
+    padding: 15px 60px 15px 60px;
+    font-size: 10px;
+    font-weight: 700;
+    background-color: hsl(322, 100%, 66%);
+    color:white;
+    
+}
+.container-two .element-four{
+    text-align: center;
+    padding-bottom: 40px;
+    margin-top: 60px;
+    
+}
+.container-two .element-four img{
+    width: 300px;
+    
+}
+
+.overall-section{
+    padding: 50px 15px 0 15px;
+    
+}
+
+.element-five{
+    border:1px solid rgba(238, 235, 235, 0.9);
+    box-shadow: 1px 1px 20px #b4b4b4; 
+    margin-bottom: 40px;
+    text-align: center;
+    border-radius: 13px;
+    padding: 60px 30px 60px 30px;
+}
+.element-five div {
+    text-align: center;
+}
+.element-five div img{
+    width: 250px;
+    padding-bottom: 40px;
+   
+}
+.element-five h3{
+    margin-bottom: 25px;
+}
+.element-five p{
+    line-height: 1.6rem;
+    font-size: 14px;
+    color: rgba(128, 128, 128, 0.834);
+}
+.element-seven{
+    border:2px solid rgba(238, 235, 235, 0.9);
+    margin-bottom: 40px;
+    text-align: center;
+    border-radius: 13px;
+    padding: 60px 30px 60px 30px;
+     margin-top: 150px; 
+    position: relative;
+    top:120px;
+    background-color: white;
+    z-index: 2; 
+     box-shadow: 2px 2px 3px #747373; 
+}
+.element-six{
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+.footer{
+    background-color: hsl(192, 100%, 9%);
+    color:white;
+    padding-top: 150px;
+   padding-left: 20px;
+   height: 720px;
+    
+    
+}
+.footer .element-eight{
+    margin-bottom: 30px;
+}
+.footer .element-eight img{
+    width:180px;
+} 
+.footer .element-nine{
+     /* border:1px solid green;  */
+    display: flex;
+}
+.footer .element-nine div{
+    
+    flex-basis: 15%;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.footer .element-nine div img{
+    width: 17px;
+    padding-top: 7px;
+}
+.footer .element-nine p{
+    flex-basis: 85%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    line-height: 1.6rem;
+    margin-bottom: 15px;
+    font-size: 17px;
+}
+.element-ten{
+    margin-bottom: 50px;
+}
+.element-eleven{
+    margin-bottom: 50px;
+}
+.element-eleven p{
+    font-size: 20px;
+    margin-bottom: 19px;
+    font-weight: 50;
+}
+.element-twelve{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.element-twelve ion-icon{
+    font-size: 30px;
+    padding-right: 20px;
+   padding-bottom: 30px;
+}
+.element-twelve p{
+    font-size: 14px;
+
+}
